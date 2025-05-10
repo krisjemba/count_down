@@ -1,13 +1,14 @@
 import time
 from datetime import datetime
 
+#print("Welcome to the first useless but most useful programme of the cosmos")
 def countdown_to_newyear():
     while True:
         now = datetime.now()
         new_year = datetime(now.year + 1, 1, 1)
         delta = new_year - now
-        
-        print(f"\n{' Welcome to Jemba's first project for the year ':=^50}")
+        print("Welcome to the first useless but most useful programme of the cosmos")
+        print(f"\n{' Welcome to Jemba\'s first project for the year ':=^50}")
         print(f"\nMonths: {delta.days // 30}")
         print(f"Weeks: {delta.days // 7}")
         print(f"Days: {delta.days}")

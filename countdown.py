@@ -7,7 +7,7 @@ def countdown_to_newyear():
         new_year = datetime(now.year + 1, 1, 1)
         delta = new_year - now
         
-        print(f"\n{' Welcome to kris\'s Countdown for the New year ':=^50}")
+        print(f"\n{' Welcome to Jemba's first project for the year ':=^50}")
         print(f"\nMonths: {delta.days // 30}")
         print(f"Weeks: {delta.days // 7}")
         print(f"Days: {delta.days}")
